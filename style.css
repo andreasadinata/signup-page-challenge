@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    height: 35px;
+    margin-top: 25px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.loginform legend {
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 40px;
+    padding-bottom: 27px;
+    color: grey;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+input {
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 320px;
+    padding: 15px;
+    height: 55px;
+    border: 2px solid silver;
+    text-align: left;
+}
+
+button {
+    display: block;
+    background-color: limegreen;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 320px;
+    padding: 15px;
+    height: 55px;
+    border: 2px solid silver;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.forgot-password {
+    color: grey;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.confirmation-account {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.login {
+    color: white;
+    font-size: 16px;
+}
